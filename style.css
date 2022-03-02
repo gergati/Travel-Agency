@@ -610,3 +610,55 @@ progress{
 .logos--big{
     width: 12rem;
 }
+
+/* Section Suscribe */
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    height: 50rem;
+}
+.subscribe__form{
+    background-color: #DFD7F9;
+    height: 30rem;
+    width: 85rem;
+    font-size: 2.5rem;
+    opacity: .8;
+    border-radius: 10rem 2rem 2rem 2rem;
+    font-family: var(--fonts-poppins);
+    color: var(--color-violet);
+}
+.subscribe__p{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.subscribe__formulario{
+    margin-left: 10rem;
+}
+.subscribe__input .email__input{
+    background-image: url(https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-interface-kiranshastry-lineal-kiranshastry-1.png);
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    background-position: 1rem center;
+    padding: 1.3rem;
+    border: none;
+    width: 25rem;
+    border-radius: 1rem;
+}
+.email__input:placeholder-shown{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.email__image {
+    left: 27rem;
+    top: 20rem;
+    width: 3rem;
+    border: 0;
+    padding: 0;
+}
+.subscribe__input button {
+    padding: 1.5rem 3rem;
+    background-color: #FF946D;
+    border: none;
+    border-radius: .5rem;
+}
