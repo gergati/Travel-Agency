@@ -614,6 +614,7 @@ progress{
 /* Section Suscribe */
 
 .subscribe{
+    position: relative;
     display: flex;
     justify-content: center;
     height: 50rem;
@@ -636,18 +637,21 @@ progress{
     margin-left: 10rem;
 }
 .subscribe__input .email__input{
-    background-image: url(https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-interface-kiranshastry-lineal-kiranshastry-1.png);
+    /* background-image: url(https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-interface-kiranshastry-lineal-kiranshastry-1.png);
     background-repeat: no-repeat;
     background-size: 2.5rem;
-    background-position: 1rem center;
+    background-position: 1rem center; */
     padding: 1.3rem;
     border: none;
     width: 25rem;
     border-radius: 1rem;
 }
-.email__input:placeholder-shown{
+/* .email__input:placeholder-shown{
     text-align: center;
     font-size: 1.2rem;
+} */
+.subscribe__input .email__input:focus{
+    border: none;
 }
 .email__image {
     left: 27rem;
@@ -661,4 +665,29 @@ progress{
     background-color: #FF946D;
     border: none;
     border-radius: .5rem;
+}
+.icono__play{
+    position: absolute;
+    left: 96rem;
+}
+.icono__play .play__img {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.spiral{
+    position: absolute;
+    top: 0;
+    left: 79rem;
+    opacity: 0.1;
+}
+.spiral .spiral__one{
+    width: 20rem;
+    height: 25rem;
+}
+.spiral__two{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 6rem;
+    right: 72rem;
+    opacity: .1;
 }
